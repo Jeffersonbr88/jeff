@@ -7,3 +7,6 @@ git commit -m "Primeiro deploy do pipeline híbrido"
 git branch -M main               # opcional, só na 1ª vez
 git remote add origin https://github.com/<seu-usuario>/<seu-repo>.git
 git push -u origin main          # 1º push (-u cria o tracking)
+git add requirements.txt
+git commit -m "Add requirements.txt for Render"
+git push
