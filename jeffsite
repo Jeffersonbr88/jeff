@@ -10,3 +10,10 @@ git push -u origin main          # 1º push (-u cria o tracking)
 git add requirements.txt
 git commit -m "Add requirements.txt for Render"
 git push
+
+
+
+fastapi
+uvicorn
+requests
+yfinance
