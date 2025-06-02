@@ -1,0 +1,9 @@
+cd /caminho/do/seu-projeto       # entre na pasta
+git init                         # cria o repositório local
+git add .                        # adiciona todos os arquivos rastreáveis
+git commit -m "Primeiro deploy do pipeline híbrido"
+
+# use “main” (padrão atual do GitHub) em vez de “master”
+git branch -M main               # opcional, só na 1ª vez
+git remote add origin https://github.com/<seu-usuario>/<seu-repo>.git
+git push -u origin main          # 1º push (-u cria o tracking)
